@@ -21,7 +21,7 @@ $ mkdir data && chmod 777 data
 ## Building Image
 
 ```
-$ git clone https://github.com/cipherzzz/cardano-node
+$ git clone https://github.com/bethington/cardano-node
 
 $ cd cardano-node
 
@@ -35,7 +35,7 @@ $ docker build -t cardano-node .
 $ docker login
 
 # Tag the local build with a remote tag
-$ docker tag cardano-node cipherz/cardano-node
+$ docker tag cardano-node bethington/cardano-node
 
 # Push the new tag to the remote
 $ docker push cipherz/cardano-node
@@ -47,7 +47,7 @@ $ docker push cipherz/cardano-node
 
 ```
 # Pull the remote built image
-$ docker pull cipherz/cardano-node
+$ docker pull bethington/cardano-node
 ```
 
 ***
